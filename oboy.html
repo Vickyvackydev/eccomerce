@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.yuotue.org</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<img src="logo/youtube.png">
+			<ul>
+				<li>Home</li>
+				<li>Recommended</li>
+				<li>last updated</li>
+				<li>Comedy</li>
+				<li>Trending</li>
+				<li>Popular</li>
+			</ul>
+			<div  class="box">
+				<input type="text" name="" placeholder="search">
+				<img src="logo/search.png" class="search">
+				<img src="images/menu.png" class="menu">
+			</div>
+		</nav>
+		<div class="content">
+			<h2>last Updated</h2>
+			<img src="image/girl.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nost</p>
+			<img src="image/girl.jpg">
+			<img src="image/girl.jpg">
+			<img src="image/girl.jpg">
+			<img src="image/girl.jpg">
+		</div>
+	</div>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			padding: 0 8px;
+		}
+		nav{
+			width: 100%;
+			display: flex;
+			padding: 10px 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			background: white;
+			position: static;
+			top: 0;
+			z-index: 10;
+			border-radius: 20px;
+		}
+		nav ul li{
+			display: inline-block;
+			list-style: none;
+			padding: 35px 10px;
+			margin: 0 5px;
+			color: #ccc;
+			cursor: pointer;
+		}
+		nav img{
+			width: 150px;
+		}
+		nav .box{
+			display: flex;
+		}
+		.box input{
+			width: 350px;
+			padding: 2px 10px;
+			margin: 30px 10px;
+			border-radius: 20px;
+			background: transparent;
+			border: 1px solid #ccc;
+			outline: none;
+		}
+		.box .search{
+			width: 15px;
+			margin: 40px 0;
+		}
+		.box .menu{
+			width: 17px;
+			margin: 40px 30px;
+		}
+		.content{
+			max-width: 500px;
+			margin: 30px 40px;
+			padding: 0 40px;
+		}
+		.content h2{
+			text-align: center;
+		}
+		.content img{
+			margin: 30px 0;
+			width: 300px;  
+			border-radius: 20px;
+		}
+		.content p{
+			text-align: center;
+		}
+	</style>
+</body>
+</html>
